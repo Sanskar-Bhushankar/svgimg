@@ -1,0 +1,27 @@
+<svg width="300" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FFFF">
+        <animate attributeName="offset" values="0;1" dur="2s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#FF00FF">
+        <animate attributeName="offset" values="1;2" dur="2s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Badge Background -->
+  <rect x="10" y="10" width="280" height="80" rx="15" fill="#121212"
+        stroke="url(#neonGrad)" stroke-width="3" filter="url(#glow)"/>
+
+  <!-- Badge Text -->
+  <text x="150" y="55" text-anchor="middle" font-family="monospace" font-size="20" fill="#FFFFFF">🔥 1000 Commits</text>
+  <text x="150" y="80" text-anchor="middle" font-family="monospace" font-size="14" fill="#00FFFF">Level: Hacker</text>
+</svg>
