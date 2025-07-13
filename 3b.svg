@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="1000px" width="800px" viewBox="0 0 330 990" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .badge-text {
+      font-family: Arial, Helvetica, sans-serif;
+      fill: #333;
+      font-size: 12px;
+      text-anchor: middle;
+    }
+    .badge-title {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .badge-tier {
+      font-size: 11px;
+      fill: #777;
+    }
+  </style>
+ 
+  <g transform="translate(0, 600)">
+    <circle cx="165" cy="165" r="100" fill="#C5E1A5" stroke="#7CB342" stroke-width="5" />
+    <circle cx="165" cy="165" r="80" fill="#F1F8E9" />
+    <text x="165" y="150" class="badge-text badge-title">🌍 Language Polyglot</text>
+    <text x="165" y="170" class="badge-text">Use 10+ programming languages</text>
+    <text x="165" y="190" class="badge-text">Progress: 7/10 (70%)</text>
+    <text x="165" y="210" class="badge-text badge-tier">Unlocked: GOLD</text>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="1000px" width="800px" viewBox="0 0 330 990" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .badge-text {
+      font-family: Arial, Helvetica, sans-serif;
+      fill: #333;
+      font-size: 12px;
+      text-anchor: middle;
+    }
+    .badge-title {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .badge-tier {
+      font-size: 11px;
+      fill: #777;
+    }
+  </style>
+
+<g transform="translate(0, 300)">
+    <circle cx="165" cy="165" r="100" fill="#B2EBF2" stroke="#00ACC1" stroke-width="5" />
+    <circle cx="165" cy="165" r="80" fill="#E0F7FA" />
+    <text x="165" y="150" class="badge-text badge-title">✨ Project Creator</text>
+    <text x="165" y="170" class="badge-text">Create 15+ described repos</text>
+    <text x="165" y="190" class="badge-text">Progress: 22/15 (100%)</text>
+    <text x="165" y="210" class="badge-text badge-tier">Unlocked: SILVER</text>
+  </g>
+
+</svg>
